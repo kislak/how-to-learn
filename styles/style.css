@@ -14,13 +14,76 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  background-image: url(../images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 10;
+}
+
+.header__title {
+  z-index: 10;
+  width: 730px;
+  margin-left: 64px;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+}
+
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 10;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../images/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2f80ed;
+  z-index: -1;
 }
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -28,4 +91,8 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+div, h1, h2 {
+  border: red 1px solid;
 }
