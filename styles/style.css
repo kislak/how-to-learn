@@ -135,11 +135,11 @@
 }
 
 .digits {
-  margin: 100px auto;
+
 }
 
 .section-title {
-  margin: 0px auto 20px;
+  margin: 100px auto 0px;
   width: 60%;
   line-height: 1.15em;
   font-size: 60px;
@@ -148,7 +148,7 @@
 }
 
 .section-subtitle {
-  margin: 0px auto;
+  margin: 20px auto 0px;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -163,7 +163,8 @@
   align-items: stretch;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 0px auto;
+  margin: 0px auto 100px;
+  padding-top: 80px;
 }
 
 .table__cell {
@@ -232,14 +233,56 @@
   z-index: -1;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  right: -210px;
+  top: 0px;
+  width: 877px;
+  height: 877px;
+  z-index: -1;
+}
+
+.section-title_theme_dark {
+  margin: 90px auto 0px;
+
+  line-height: 1.15em;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle_theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table_theme_dark {
+  margin: 0px auto 90px;
+  padding-top: 80px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
   margin-top: 80px;
 }
+
+.table__heading_theme_dark {
+  margin-top: 0px;
+}
+
 
 div, h1, h2, h3, p {
   border: red 1px solid;
