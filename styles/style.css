@@ -61,7 +61,8 @@
 }
 
 .header__link {
-
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -90,7 +91,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto;
+  margin: 0px auto;
+  padding-top: 100px;
+  background: white;
 }
 
 .two-columns {
@@ -135,11 +138,11 @@
 }
 
 .digits {
-
+  padding-top: 100px
 }
 
 .section-title {
-  margin: 100px auto 0px;
+  margin: 0px auto;
   width: 60%;
   line-height: 1.15em;
   font-size: 60px;
@@ -164,7 +167,6 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0px auto 100px;
-  padding-top: 80px;
 }
 
 .table__cell {
@@ -197,7 +199,6 @@
 .feynman__title {
   width: 648px;
   margin: 0px auto;
-
   line-height: 1.15em;
   font-size: 120px;
   font-weight: bold;
@@ -207,7 +208,6 @@
 .feynman__subtitle {
   width: 380px;
   margin: 70px auto;
-
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -216,12 +216,13 @@
 
 .feynman__link {
   position: absolute;
-  top 50%;
+  top: 50%;
   right: 48px;
-
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__img {
@@ -239,6 +240,7 @@
   overflow: hidden;
   position: relative;
   z-index: -10;
+  padding: 90px 0px;
 }
 
 .kaufman__triangle {
@@ -256,7 +258,7 @@
 }
 
 .section-title_theme_dark {
-  margin: 90px auto 0px;
+  margin: 0px auto;
 
   line-height: 1.15em;
   font-size: 60px;
@@ -270,8 +272,7 @@
 }
 
 .table_theme_dark {
-  margin: 0px auto 90px;
-  padding-top: 80px;
+  margin: 0px auto;
 }
 
 .table__cell_theme_dark {
@@ -286,6 +287,7 @@
 .footer {
   background-color: #1f1f1f;
   color: #fff;
+  padding: 60px 0px 40px;
 }
 
 .footer__columns {
@@ -293,17 +295,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-
   min-height: 350px;
-
   width: 90%;
-  margin: 60px auto 40px;
+  margin: 0px auto;
 }
 
 .footer__columns_content_copyright {
   flex-basis: 711px;
   position: relative;
-
 }
 
 .logo_place_footer {
@@ -374,8 +373,4 @@
 
 .footer__social-icon_instagram {
   background-image: url(../images/instagram_color_white.svg);
-}
-
-div, h1, h2, h3, p {
-  border: red 1px solid;
 }
