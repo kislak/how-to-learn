@@ -44,25 +44,24 @@
 }
 
 .header__title {
+  margin: 0;
   margin-left: 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
 
   z-index: 10;
-  margin: 0;
   max-width: 730px;
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
-  margin: 0;
   z-index: 10;
   max-width: 388px;
 }
