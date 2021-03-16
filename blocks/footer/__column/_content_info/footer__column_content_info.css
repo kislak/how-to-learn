@@ -1,0 +1,7 @@
+.footer__column_content_info {
+  align-items: stretch;
+  justify-content: flex-start;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}

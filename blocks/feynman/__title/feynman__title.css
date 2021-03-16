@@ -1,8 +1,8 @@
-.section-title {
+.feynman__title {
+  max-width: 648px;
   margin: 0px auto;
-  width: 60%;
   line-height: 1.15em;
-  font-size: 60px;
+  font-size: 120px;
   font-weight: bold;
   text-align: center;
 }
