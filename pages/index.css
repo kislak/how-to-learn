@@ -34,6 +34,9 @@
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 @import url("../blocks/header/__square-pic/header__square-pic.css");
 
+@import url("../blocks/techniques/techniques.css");
+
+
 @import url("../blocks/description/description.css");
 
 @import url("../blocks/digits/digits.css");
