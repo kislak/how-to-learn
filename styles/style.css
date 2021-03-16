@@ -2,56 +2,6 @@
 
 
 
-.header__title {
-  margin: 0;
-  margin-left: 64px;
-  font-size: 102px;
-  font-weight: bold;
-  line-height: 96px;
-
-  z-index: 10;
-  max-width: 730px;
-}
-
-.header__subtitle {
-  margin: 0;
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 10;
-  max-width: 388px;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  z-index: 2;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  top: 64px;
-  right: 0px;
-  background-color: #2f80ed;
-  z-index: 1;
-}
 
 .description {
   display: flex;
