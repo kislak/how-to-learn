@@ -2,4 +2,7 @@
   margin: 68px 0px 0px;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
 }
