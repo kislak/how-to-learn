@@ -3,7 +3,11 @@
 ## что это за проект?
  
 учебный проект первый и второй спринты 
-[Яндекс.практикум](https://praktikum.yandex.ru/) 
+[Яндекс.практикум](https://praktikum.yandex.ru/)
+
+[link](https://kislak.github.io/how-to-learn/)
+
+ 
 
 ## Какая функциональность.
 дидактика на пальцах:
